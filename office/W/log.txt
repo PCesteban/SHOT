@@ -1,0 +1,36 @@
+==========================================
+gpu_id:7
+s:2
+t:1
+max_epoch:100
+batch_size:64
+worker:4
+dset:office
+lr:0.01
+net:resnet50
+seed:2021
+bottleneck:256
+epsilon:1e-05
+layer:wn
+classifier:bn
+smooth:0.1
+output:ckps/source/val/seed2021
+da:uda
+trte:val
+class_num:31
+s_dset_path:/Checkpoint/liangjian/tran/data/office/webcam_list.txt
+test_dset_path:/Checkpoint/liangjian/tran/data/office/dslr_list.txt
+output_dir_src:ckps/source/val/seed2021/uda/office/W
+name_src:W
+out_file:<_io.TextIOWrapper name='ckps/source/val/seed2021/uda/office/W/log.txt' mode='w' encoding='UTF-8'>
+
+Task: W, Iter:120/1200; Accuracy = 98.75%
+Task: W, Iter:240/1200; Accuracy = 98.75%
+Task: W, Iter:360/1200; Accuracy = 98.75%
+Task: W, Iter:480/1200; Accuracy = 98.75%
+Task: W, Iter:600/1200; Accuracy = 98.75%
+Task: W, Iter:720/1200; Accuracy = 98.75%
+Task: W, Iter:840/1200; Accuracy = 98.75%
+Task: W, Iter:960/1200; Accuracy = 98.75%
+Task: W, Iter:1080/1200; Accuracy = 98.75%
+Task: W, Iter:1200/1200; Accuracy = 98.75%

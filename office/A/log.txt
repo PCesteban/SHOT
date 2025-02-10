@@ -1,0 +1,36 @@
+==========================================
+gpu_id:7
+s:0
+t:1
+max_epoch:100
+batch_size:64
+worker:4
+dset:office
+lr:0.01
+net:resnet50
+seed:2021
+bottleneck:256
+epsilon:1e-05
+layer:wn
+classifier:bn
+smooth:0.1
+output:ckps/source/val/seed2021
+da:uda
+trte:val
+class_num:31
+s_dset_path:/Checkpoint/liangjian/tran/data/office/amazon_list.txt
+test_dset_path:/Checkpoint/liangjian/tran/data/office/dslr_list.txt
+output_dir_src:ckps/source/val/seed2021/uda/office/A
+name_src:A
+out_file:<_io.TextIOWrapper name='ckps/source/val/seed2021/uda/office/A/log.txt' mode='w' encoding='UTF-8'>
+
+Task: A, Iter:400/4000; Accuracy = 84.75%
+Task: A, Iter:800/4000; Accuracy = 85.46%
+Task: A, Iter:1200/4000; Accuracy = 85.46%
+Task: A, Iter:1600/4000; Accuracy = 85.82%
+Task: A, Iter:2000/4000; Accuracy = 86.17%
+Task: A, Iter:2400/4000; Accuracy = 87.59%
+Task: A, Iter:2800/4000; Accuracy = 86.88%
+Task: A, Iter:3200/4000; Accuracy = 86.52%
+Task: A, Iter:3600/4000; Accuracy = 86.17%
+Task: A, Iter:4000/4000; Accuracy = 87.59%
