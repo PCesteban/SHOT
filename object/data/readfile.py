@@ -1,6 +1,6 @@
 import os
 
-folder = "Office/"
+folder = "office/"
 domains = os.listdir(folder)
 domains.sort()
 for d in range(len(domains)):
