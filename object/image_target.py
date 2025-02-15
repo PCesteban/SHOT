@@ -132,11 +132,11 @@ def train_target(args):
     netB = network.feat_bottleneck(type=args.classifier, feature_dim=netF.in_features, bottleneck_dim=args.bottleneck).cuda()
     netC = network.feat_classifier(type=args.layer, class_num = args.class_num, bottleneck_dim=args.bottleneck).cuda()
 
-    modelpath = args.output_dir_src + '/office/source_F.pt'   
+    modelpath = args.output_dir_src + '/source_F.pt'   
     netF.load_state_dict(torch.load(modelpath))
-    modelpath = args.output_dir_src + '/office/source_B.pt'   
+    modelpath = args.output_dir_src + '/source_B.pt'   
     netB.load_state_dict(torch.load(modelpath))
-    modelpath = args.output_dir_src + '/office/source_C.pt'    
+    modelpath = args.output_dir_src + '/source_C.pt'    
     netC.load_state_dict(torch.load(modelpath))
     netC.eval()
     for k, v in netC.named_parameters():
