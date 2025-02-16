@@ -1,0 +1,68 @@
+==========================================
+gpu_id:0
+s:0
+t:2
+max_epoch:15
+interval:15
+batch_size:64
+worker:4
+dset:office
+lr:0.01
+net:resnet50
+seed:2020
+gent:True
+ent:True
+threshold:0
+cls_par:0.3
+ent_par:1.0
+lr_decay1:0.1
+lr_decay2:1.0
+bottleneck:256
+epsilon:1e-05
+layer:wn
+classifier:bn
+distance:cosine
+output:ckps/target/
+output_src:ckps/source/
+da:uda
+issave:True
+class_num:31
+s_dset_path:./data/office/amazon_list.txt
+t_dset_path:./data/office/webcam_list.txt
+test_dset_path:./data/office/webcam_list.txt
+output_dir_src:ckps/source/uda/office/A
+output_dir:ckps/target/uda/office/AW
+name:AW
+savename:par_0.3
+out_file:<_io.TextIOWrapper name='ckps/target/uda/office/AW/log_par_0.3.txt' mode='w' encoding='UTF-8'>
+
+Accuracy = 77.48% -> 87.55%
+Task: AW, Iter:13/195; Accuracy = 87.42%
+Accuracy = 87.42% -> 89.06%
+Task: AW, Iter:26/195; Accuracy = 87.92%
+Accuracy = 87.92% -> 88.93%
+Task: AW, Iter:39/195; Accuracy = 88.68%
+Accuracy = 88.68% -> 89.06%
+Task: AW, Iter:52/195; Accuracy = 89.31%
+Accuracy = 89.31% -> 89.43%
+Task: AW, Iter:65/195; Accuracy = 89.18%
+Accuracy = 89.18% -> 89.43%
+Task: AW, Iter:78/195; Accuracy = 89.31%
+Accuracy = 89.31% -> 89.43%
+Task: AW, Iter:91/195; Accuracy = 89.31%
+Accuracy = 89.31% -> 89.43%
+Task: AW, Iter:104/195; Accuracy = 89.43%
+Accuracy = 89.43% -> 89.43%
+Task: AW, Iter:117/195; Accuracy = 89.43%
+Accuracy = 89.43% -> 89.69%
+Task: AW, Iter:130/195; Accuracy = 89.43%
+Accuracy = 89.43% -> 89.69%
+Task: AW, Iter:143/195; Accuracy = 89.56%
+Accuracy = 89.56% -> 89.69%
+Task: AW, Iter:156/195; Accuracy = 89.56%
+Accuracy = 89.56% -> 89.69%
+Task: AW, Iter:169/195; Accuracy = 89.69%
+Accuracy = 89.69% -> 89.69%
+Task: AW, Iter:182/195; Accuracy = 89.69%
+Accuracy = 89.69% -> 89.69%
+Task: AW, Iter:195/195; Accuracy = 89.69%

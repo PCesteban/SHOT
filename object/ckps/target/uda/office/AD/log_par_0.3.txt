@@ -36,3 +36,33 @@ name:AD
 savename:par_0.3
 out_file:<_io.TextIOWrapper name='ckps/target/uda/office/AD/log_par_0.3.txt' mode='w' encoding='UTF-8'>
 
+Accuracy = 80.92% -> 90.36%
+Task: AD, Iter:8/120; Accuracy = 88.15%
+Accuracy = 88.15% -> 89.96%
+Task: AD, Iter:16/120; Accuracy = 89.76%
+Accuracy = 89.76% -> 90.56%
+Task: AD, Iter:24/120; Accuracy = 91.97%
+Accuracy = 91.97% -> 92.37%
+Task: AD, Iter:32/120; Accuracy = 92.17%
+Accuracy = 92.17% -> 92.57%
+Task: AD, Iter:40/120; Accuracy = 92.37%
+Accuracy = 92.37% -> 92.57%
+Task: AD, Iter:48/120; Accuracy = 92.77%
+Accuracy = 92.77% -> 93.17%
+Task: AD, Iter:56/120; Accuracy = 92.77%
+Accuracy = 92.77% -> 93.57%
+Task: AD, Iter:64/120; Accuracy = 92.57%
+Accuracy = 92.57% -> 92.97%
+Task: AD, Iter:72/120; Accuracy = 92.57%
+Accuracy = 92.57% -> 92.77%
+Task: AD, Iter:80/120; Accuracy = 92.57%
+Accuracy = 92.57% -> 92.77%
+Task: AD, Iter:88/120; Accuracy = 92.77%
+Accuracy = 92.77% -> 92.57%
+Task: AD, Iter:96/120; Accuracy = 92.77%
+Accuracy = 92.77% -> 92.57%
+Task: AD, Iter:104/120; Accuracy = 92.57%
+Accuracy = 92.57% -> 92.57%
+Task: AD, Iter:112/120; Accuracy = 92.57%
+Accuracy = 92.57% -> 92.57%
+Task: AD, Iter:120/120; Accuracy = 92.57%
